@@ -6,9 +6,13 @@
 	广州 bucket： http://gz.bcebos.com/console-bos-uploader-gz/public-index.html
 
 页面接受4个参数：
+
 bucket   // 必填 bucket名字
+
 path   // 可选 根据用户是否需要上传到某个文件夹中
+
 auth   // 可选 如果bucket是非 公共读写的， 需要用户提供一个处理JSONP请求，并返回 签名信息 的URL
+
 csrfToken  // 可选 如果是公共读写的 不需要填写， 非公共读写的建议携带一个 基于标识客户信息的cookie生成的token。以便后端接收jsonp请求签名时 核对用户信息。
 
 ##2个例子
