@@ -33,7 +33,7 @@ bucket:  用户传的bucket 名字
 
 object：path + file名字
 
-csrftoken: 用户传的token
+csrftoken: 用户传的token  （后端接收到csrftoken后需要校验是否与cookie信息一致，来防止跨站伪造请求）
 
 签名接口返回的格式为：
 {"key":"authorization","value":"bce-auth-v1%xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}
