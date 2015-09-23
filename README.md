@@ -22,6 +22,7 @@ http://bj.bcebos.com/console-bos-uploader-bj/public-index.html?bucket=test1 放�
 例子2：我要向广州的名为abc的私有bucket中的test文件夹上传文件 需要拼出：
 
 http://gz.bcebos.com/console-bos-uploader-gz/public-index.html?bucket=abc&path=test/&auth=http://mytestsite.com/api/getauth&csrftoken=mytokenbaseoncookie  放到用户页面中的iframe中
+
 其中：http://mytestsite.com/api/getauth  是需要用户自己提供的一个支持jsonp请求签名的接口，上传时会向该接口请求签名。请求的 参数有 
 bucket:  用户传的bucket 名字
 
