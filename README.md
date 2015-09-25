@@ -42,3 +42,10 @@ csrftoken: 用户传的token  （后端接收到csrftoken后需要校验是否�
 具体的签名算法 参考 ：http://bce.baidu.com/doc/BCC/API.html#.F1.E1.8E.5D.A4.2D.55.13.D1.03.FE.3B.AB.70.23.05 
 
 
+
+
+##其他
+
+1.开始上传, 上传完毕, 上传完毕且全部成功时，分别会通过postmessage 向 容器页面 发送uploading， confirm 和 finish 消息
+
+
