@@ -35,8 +35,8 @@ object：path + file名字
 
 csrftoken: 用户传的token  （后端接收到csrftoken后需要校验是否与cookie信息一致，来防止跨站伪造请求）
 
-签名接口返回的格式为：
-{"key":"authorization","value":"bce-auth-v1%xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}
+签名接口返回的格式为JSONP标准格式：
+callback({"key":"authorization","value":"bce-auth-v1%xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"})
 
 
 具体的签名算法 参考 ：http://bce.baidu.com/doc/BCC/API.html#.F1.E1.8E.5D.A4.2D.55.13.D1.03.FE.3B.AB.70.23.05 
