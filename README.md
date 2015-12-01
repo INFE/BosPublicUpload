@@ -48,4 +48,4 @@ callback({"key":"authorization","value":"bce-auth-v1%xxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 1.开始上传, 上传完毕, 上传完毕且全部成功时，分别会通过postmessage 向 容器页面 发送uploading， confirm 和 finish 消息
 
-
+2.每上传成功一个文件，会通过postmessage 向容器页面发送文件名字 （15年12月1日更新）
