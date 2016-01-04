@@ -1,6 +1,6 @@
 # BosPublicUpload
 
-现在我们百度开放云暂时木有js SDK 提供，只是提供了一个公共的页面可以实现直接上传到百度bos服务器。
+现在我们百度开放云暂时木有js SDK 提供，只是提供了一个公共的页面可以实现直接上传到百度bos服务器。 （现在有个nodejs的sdk：感兴趣的可以看看）
 
 	北京 bucket： http://bj.bcebos.com/console-bos-uploader-bj/public-index.html
 	广州 bucket： http://gz.bcebos.com/console-bos-uploader-gz/public-index.html
@@ -49,3 +49,5 @@ callback({"key":"authorization","value":"bce-auth-v1%xxxxxxxxxxxxxxxxxxxxxxxxxxx
 1.开始上传, 上传完毕, 上传完毕且全部成功时，分别会通过postmessage 向 容器页面 发送uploading， confirm 和 finish 消息
 
 2.每上传成功一个文件，会通过postmessage 向容器页面发送文件名字 （15年12月1日更新）
+
+3.有个 [nodejs的 sdk](https://www.npmjs.com/package/baidubce-sdk) , 有兴趣的可以去看看
