@@ -53,5 +53,5 @@ callback({"key":"authorization","value":"bce-auth-v1%xxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 3.有个 [nodejs的 sdk](https://www.npmjs.com/package/baidubce-sdk) , 有兴趣的可以去看看
 
-4.bce-bos-uploader 是基于 bce-sdk-js 开发的一个 ui 组件，易用性更好 [传送门](https://github.com/leeight/bce-bos-uploader)
+4.[bce-bos-uploader](https://github.com/leeight/bce-bos-uploader) 是基于 bce-sdk-js 开发的一个 ui 组件，易用性更好 [https://github.com/leeight/bce-bos-uploader](https://github.com/leeight/bce-bos-uploader)
 
